@@ -1,0 +1,78 @@
+html, body {
+    width: 100%;
+    height:100%;
+    
+}
+
+div.container{
+    background-color: rgb(32, 32, 58);
+}
+
+div.col-sm-4{
+    height: max-content;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(89, 89, 131);
+}
+
+.fill{
+    min-height: 100%;
+    height: 100%;
+}
+p{
+    color: cornsilk;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+h1{
+    color: cornsilk;
+}
+img{
+    width: 50px;
+    background-color:  rgb(32, 32, 58);
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: rgb(85, 158, 241);
+    border: none;
+    color: white;
+    padding: 8px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 30px;
+  }
+
+  .btn-secondary {
+    background-color: rgb(32, 32, 58);
+    border: none;
+    color: white;
+    padding: 8px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 22px;
+  }
+  div#button-names{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .btn-secondary:hover{
+      background-color: rgb(49, 61, 77);
+  }
+  .dropdown{
+      padding-top: 60px;
+  }
+
+  #person{
+    width: 50px;
+    height: 50px;
+    background-color:  rgb(32, 32, 58);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
